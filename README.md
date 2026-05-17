@@ -1,22 +1,39 @@
-# P3AR-NTU
+<h1 align="center">Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition</h1>
 
-This repository provides the processing scripts and metadata for the **P3AR-NTU** dataset introduced in:
+<p align="center">
+  <a href="https://scholar.google.com/citations?hl=zh-CN&user=woX_4AcAAAAJ">Mengyuan Liu</a>,
+  <a href="https://wangzy01.github.io/">Ziyi Wang</a><sup>&dagger;</sup>,
+  <a href="https://scholar.google.com/citations?user=TFBbgIQAAAAJ&hl=zh-CN">Peiming Li</a><sup>&dagger;</sup>,
+  <a href="https://scholar.google.com/citations?user=fJ7seq0AAAAJ&hl=zh-CN">Junsong Yuan</a>
+</p>
 
-**Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition**  
-Mengyuan Liu, Ziyi Wang<sup>&dagger;</sup>, Peiming Li<sup>&dagger;</sup>, Junsong Yuan  
-Accepted as a Regular Paper by **IEEE Transactions on Image Processing (T-IP)**.
+<p align="center">
+  Peking University Shenzhen Graduate School, State University of New York at Buffalo
+</p>
 
-<sup>&dagger;</sup> Corresponding authors: Ziyi Wang and Peiming Li.
+<h2 align="center">IEEE Transactions on Image Processing (T-IP), 2026</h2>
 
-## Overview
+<p align="center">
+  <a href="https://arxiv.org/"><b>[Paper]</b></a>
+  |
+  <a href="https://github.com/wangzy01/MSPNet"><b>[Code]</b></a>
+</p>
 
-P3AR-NTU is the large-scale replay-and-capture subset of the P3AR benchmark for physical privacy-preserving action recognition. It is constructed from NTU RGB+D 120 by physically recapturing the original videos with a camera covered by Lens Privacy Sealing (LPS), a low-cost laminating-film privacy mask. The resulting videos preserve action cues while suppressing privacy-sensitive visual details.
+<p align="center">
+  <sup>&dagger;</sup> Corresponding authors: Ziyi Wang and Peiming Li
+</p>
 
-This repository contains scripts used to organize the recaptured stream into NTU-style video samples. The companion MSPNet code repository is available at:
+## P3AR-NTU
+
+This repository provides processing scripts and metadata for the P3AR-NTU dataset. The companion MSPNet code repository is available at:
 
 ```text
 https://github.com/wangzy01/MSPNet
 ```
+
+## Dataset Statistics
+
+![dataset_statistics](assets/dataset_statistics.png)
 
 ## Download
 
@@ -82,8 +99,12 @@ python split_into_videos.py
 
 ## Contact
 
-For questions about P3AR-NTU, please contact the corresponding authors:  
-`ziyiwang@stu.pku.edu.cn`, `lipeiming1001@stu.pku.edu.cn`.
+For questions about P3AR-NTU, please contact the corresponding authors:
+
+```text
+ziyiwang@stu.pku.edu.cn
+lipeiming1001@stu.pku.edu.cn
+```
 
 ## License
 
