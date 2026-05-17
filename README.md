@@ -27,6 +27,8 @@
 
 This repository provides processing scripts and metadata for the P3AR-NTU dataset. The companion MSPNet code repository is available at:
 
+[MSPNet Code Repository](https://github.com/wangzy01/MSPNet)
+
 ```text
 https://github.com/wangzy01/MSPNet
 ```
@@ -86,16 +88,6 @@ python split_into_videos.py
 ```
 
 ## Citation
-
-```bibtex
-@article{liu2026lens,
-  title={Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition},
-  author={Liu, Mengyuan and Wang, Ziyi and Li, Peiming and Yuan, Junsong},
-  journal={IEEE Transactions on Image Processing},
-  year={2026},
-  note={Accepted}
-}
-```
 
 ## Contact
 
